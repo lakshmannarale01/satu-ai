@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/satuAi.iml" filepath="$PROJECT_DIR$/.idea/satuAi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/satuAi.iml" filepath="$PROJECT_DIR$/backend/satuAi.iml" />
     </modules>
   </component>
 </project>
