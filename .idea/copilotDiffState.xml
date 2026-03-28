@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="/HelloController (snapshot).java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="/HelloController (snapshot).java" />
+              <option name="originalContent" value="package com.satruai.controller;&#10;&#10;import org.springframework.web.bind.annotation.CrossOrigin;&#10;import org.springframework.web.bind.annotation.GetMapping;&#10;import org.springframework.web.bind.annotation.RestController;&#10;&#10;@RestController&#10;@CrossOrigin(&quot;*&quot;)  // Allow CORS for frontend running on different port&#10;public class HelloController {&#10;&#10;    @GetMapping(&quot;/api/hello&quot;)&#10;    public String hello() {&#10;        return &quot;Hello from Satu AI Backend!&quot;;&#10;    }&#10;}&#10;" />
+              <option name="updatedContent" value="package com.satruai.controller;&#10;&#10;import org.springframework.web.bind.annotation.GetMapping;&#10;import org.springframework.web.bind.annotation.RestController;&#10;&#10;/**&#10; * Basic controller to test backend connectivity&#10; */&#10;@RestController&#10;public class HelloController {&#10;&#10;    @GetMapping(&quot;/api/hello&quot;)&#10;    public String hello() {&#10;        return &quot;Hello from Satu AI Backend!&quot;;&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
